@@ -1,0 +1,25 @@
+LSPosed UI 模板
+Copyright 2026 MVennn
+
+本产品包含第三方组件，其版权与许可证声明如下。
+
+Apache License 2.0
+  - AndroidX (activity-compose, core-ktx)        https://developer.android.com/jetpack/androidx
+  - Jetpack Compose                              https://developer.android.com/jetpack/compose
+  - Kotlin / Kotlin Coroutines                   https://kotlinlang.org
+  - libxposed API / annotation / service         https://github.com/libxposed/api
+
+Miuix (top.yukonga.miuix.kmp:miuix-ui / miuix-preference) 0.9.3
+  Copyright (c) Yukonga
+  https://github.com/Yukonga/Miuix
+
+backdrop (io.github.kyant0:backdrop) 1.0.6
+  https://github.com/Kyant0/backdrop
+
+Material Icons
+  Copyright Google LLC
+  https://github.com/google/material-design-icons
+  Apache License 2.0
+
+本模板从 GSAuxiliary / WxPicLabe 两个项目的 UI 骨架与设计规范抽取而来，
+相关界面组件与 docs/DESIGN-SYSTEM.md 规范版权归原项目作者所有。

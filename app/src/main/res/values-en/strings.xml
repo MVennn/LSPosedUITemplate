@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_license">License</string>
+    <string name="about_repo">Repository</string>
+    <string name="about_third_party">Third-party notices</string>
+    <string name="about_third_party_desc">View the NOTICE bundled with the APK (copyright and licenses of components)</string>
+    <string name="about_value_developer">M.Venn</string>
+    <string name="about_value_github">https://github.com/MVennn</string>
+    <string name="about_value_handle">@M.Venn</string>
+    <string name="about_value_license">Apache-2.0</string>
+    <string name="about_value_repo_url">https://github.com/MVennn/LSPosedUITemplate</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="agreement_check_link">Disclaimer</string>
+    <string name="agreement_check_prefix">I have carefully read and agree to the\u0020</string>
+    <string name="agreement_check_suffix">\u0020in its entirety</string>
+    <string name="agreement_confirm">Confirm</string>
+    <string name="agreement_message">Non-commercial open-source software for studying Android reverse engineering and hooking. Not for commercial use; delete it within 24 hours. Thanks for your understanding.</string>
+    <string name="agreement_title">Before you start</string>
+    <string name="app_name">LSPosed UI Template</string>
+    <string name="common_back">Back</string>
+    <string name="demo_clear_items">Clear all items</string>
+    <string name="demo_clear_message">Removes all example items. Cannot be undone.</string>
+    <string name="demo_clear_title">Clear all items?</string>
+    <string name="demo_cleared">Items cleared</string>
+    <string name="demo_detail_title">Example detail</string>
+    <string name="demo_empty">No items yet</string>
+    <string name="demo_empty_summary">Tap \"New item\" below to add one</string>
+    <string name="demo_item_added">Item added</string>
+    <string name="demo_item_delete">Delete this item</string>
+    <string name="demo_item_deleted">Item deleted</string>
+    <string name="demo_new_item">New item</string>
+    <string name="demo_new_item_empty">Value cannot be empty</string>
+    <string name="demo_new_item_exists">This item already exists</string>
+    <string name="demo_new_item_hint">Enter a value</string>
+    <string name="demo_new_item_tip">Enter a value; appended to the list.</string>
+    <string name="demo_section_basic">Example settings</string>
+    <string name="demo_section_items">Example list</string>
+    <string name="demo_status_summary">%1$d item(s)</string>
+    <string name="demo_status_title">Current items</string>
+    <string name="demo_switch_summary_off">Off: feature disabled</string>
+    <string name="demo_switch_summary_on">On: switch is active</string>
+    <string name="demo_switch_title">Example feature</string>
+    <string name="disclaimer_body">Continued use means you accept all terms; the author bears no liability</string>
+    <string name="disclaimer_detail_title">Disclaimer</string>
+    <string name="disclaimer_full">This template is for studying Android reverse engineering and hooking only, with no affiliation to any enterprise, app or service. By using it you agree that:
+
+- It is for personal technical research only, not commercial use;
+- You use it at your own risk; the developer bears no liability;
+- You comply with local laws and the target app\'s terms.</string>
+    <string name="notice_detail_title">Third-party notices</string>
+    <string name="oss_compose">Jetpack Compose / AndroidX</string>
+    <string name="oss_compose_desc">Declarative UI toolkit and Android base libraries</string>
+    <string name="oss_hyperisland">HyperIsland</string>
+    <string name="oss_hyperisland_desc">About page layout and motion ported from this project (MIT)</string>
+    <string name="oss_kotlin">Kotlin</string>
+    <string name="oss_kotlin_desc">Language and standard library</string>
+    <string name="oss_link_failed">Cannot open the link</string>
+    <string name="oss_liquid_glass">AndroidLiquidGlass (backdrop)</string>
+    <string name="oss_liquid_glass_desc">Liquid glass refraction and blur effects</string>
+    <string name="oss_lsposed">LSPosed / libxposed</string>
+    <string name="oss_lsposed_desc">Module framework and modern Xposed API</string>
+    <string name="oss_material_icons">Material Icons</string>
+    <string name="oss_material_icons_desc">Vector path data for UI icons (hand-built, no icon library)</string>
+    <string name="oss_miuix">Miuix</string>
+    <string name="oss_miuix_desc">Xiaomi HyperOS style Compose UI component library</string>
+    <string name="section_author">Author</string>
+    <string name="section_disclaimer">Disclaimer</string>
+    <string name="section_open_source">Open source credits</string>
+    <string name="subtitle_about">About</string>
+    <string name="subtitle_feature">Feature menu</string>
+    <string name="subtitle_module">Environment</string>
+    <string name="subtitle_settings">Module settings</string>
+    <string name="tab_about">About</string>
+    <string name="tab_feature">Features</string>
+    <string name="tab_module">Overview</string>
+    <string name="tab_settings">Settings</string>
+    <string name="xposed_description">LSPosed module UI template (replace with your description)</string>
+    <string-array name="language_labels">
+        <item>Follow system</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="theme_labels">
+        <item>Follow system</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="log_level_labels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Info</item>
+        <item>Debug</item>
+    </string-array>
+
+    <!-- 4 模板页面：概览 / 设置 / 第三方声明 / 免责声明 -->
+    <string name="common_unknown">Unknown</string>
+    <string name="framework_info_unreadable">Connected (info unreadable)</string>
+    <string name="info_module_version">Module version</string>
+    <string name="info_build_time">Build time</string>
+    <string name="info_android_version">Android version</string>
+    <string name="info_device_model">Device model</string>
+    <string name="info_miuix_version">Miuix version</string>
+    <string name="overview_status_active">Activated</string>
+    <string name="overview_status_inactive">Not activated</string>
+    <string name="overview_status_disconnected">Not connected</string>
+    <string name="overview_status_no_framework">Not connected to the LSPosed framework</string>
+    <string name="section_overview_module">Module</string>
+    <string name="section_overview_runtime">Environment</string>
+    <string name="section_interface">Interface</string>
+    <string name="section_dock">Material</string>
+    <string name="section_general">General</string>
+    <string name="item_liquid_glass">Liquid glass</string>
+    <string name="liquid_glass_on">On - glass top bar and dialogs</string>
+    <string name="liquid_glass_off">Off - solid top bar and dock</string>
+    <string name="item_glass_effect">Glass lighting</string>
+    <string name="glass_effect_on">On - glass with live lighting</string>
+    <string name="glass_effect_off">Off - static glass material</string>
+    <string name="item_theme">Theme</string>
+    <string name="item_language">Language</string>
+    <string name="item_predictive_back">Predictive back</string>
+    <string name="item_predictive_back_summary_on">Live back preview (Android 13+)</string>
+    <string name="item_predictive_back_summary_off">Plain back animation</string>
+
+    <!-- 设置页完整 UI 行文案 -->
+    <string name="section_data">Data</string>
+    <string name="section_log">Logs</string>
+    <string name="item_desktop_icon">Desktop icon</string>
+    <string name="item_desktop_icon_summary_off">Hidden — reopen this page from LSPosed</string>
+    <string name="item_glass_effect_summary_on">Full glass lighting</string>
+    <string name="item_glass_effect_summary_off">Minimal variant</string>
+    <string name="item_backup">Back up config</string>
+    <string name="item_restore">Restore config</string>
+    <string name="item_reset">Reset module</string>
+    <string name="item_reset_summary">Turn off all features and restore defaults</string>
+    <string name="item_log_level">Log level</string>
+    <string name="item_export_log">Export logs</string>
+    <string name="item_export_log_summary">Module and target process logs</string>
+    <string name="dialog_reset_title">Reset module</string>
+    <string name="dialog_reset_message">All module settings will be deleted after the reset!</string>
+    <string name="template_demo_hint">Template demo: %1$s (business logic removed)</string>
+</resources>

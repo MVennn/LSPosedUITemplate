@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_license">开源协议</string>
+    <string name="about_repo">项目仓库</string>
+    <string name="about_third_party">第三方组件声明</string>
+    <string name="about_third_party_desc">查看随 APK 分发的 NOTICE（各开源组件的版权与许可证）</string>
+    <string name="about_value_developer">M.Venn</string>
+    <string name="about_value_github">https://github.com/MVennn</string>
+    <string name="about_value_handle">@M.Venn</string>
+    <string name="about_value_license">Apache-2.0</string>
+    <string name="about_value_repo_url">https://github.com/MVennn/LSPosedUITemplate</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+    <string name="agreement_check_link">免责声明</string>
+    <string name="agreement_check_prefix">我已仔细阅读并同意\u0020</string>
+    <string name="agreement_check_suffix">\u0020的全部内容</string>
+    <string name="agreement_confirm">确定</string>
+    <string name="agreement_message">本模块是用于研究 Android 逆向与 Hook 技术的非商业开源软件，请勿用于任何商业用途，并在 24 小时内删除，感谢理解与支持。</string>
+    <string name="agreement_title">使用前须知</string>
+    <string name="app_name">LSPosed UI 模板</string>
+    <string name="common_back">返回</string>
+    <string name="demo_clear_items">清空全部条目</string>
+    <string name="demo_clear_message">会删除当前全部示例条目，且无法撤销。</string>
+    <string name="demo_clear_title">清空全部条目？</string>
+    <string name="demo_cleared">已清空条目</string>
+    <string name="demo_detail_title">示例详情页</string>
+    <string name="demo_empty">还没有条目</string>
+    <string name="demo_empty_summary">点下面的「新建条目」加一条</string>
+    <string name="demo_item_added">已添加条目</string>
+    <string name="demo_item_delete">删除这条</string>
+    <string name="demo_item_deleted">已删除条目</string>
+    <string name="demo_new_item">新建条目</string>
+    <string name="demo_new_item_empty">内容不能为空</string>
+    <string name="demo_new_item_exists">这条已经存在</string>
+    <string name="demo_new_item_hint">输入内容</string>
+    <string name="demo_new_item_tip">输入一条内容，确定后追加到列表末尾。</string>
+    <string name="demo_section_basic">示例设置</string>
+    <string name="demo_section_items">示例列表</string>
+    <string name="demo_status_summary">共 %1$d 条</string>
+    <string name="demo_status_title">当前条目</string>
+    <string name="demo_switch_summary_off">已关闭：功能未启用</string>
+    <string name="demo_switch_summary_on">已开启：示例开关生效中</string>
+    <string name="demo_switch_title">示例功能</string>
+    <string name="disclaimer_body">本模块为学习研究用的开源软件，非商业用途，与腾讯公司及微信无任何隶属关系；不收集、不上传任何个人信息，全部处理均在本机完成。</string>
+    <string name="disclaimer_detail_title">免责声明</string>
+    <string name="disclaimer_full">本模板仅供研究 Android 逆向与 Hook 技术使用，与任何企业、应用或服务无关联。使用即表示你已阅读并同意：
+
+- 仅用于个人技术研究，不作商业用途；
+- 风险自负，开发者不承担任何责任；
+- 请遵守你所在地区的法律法规与目标应用的条款。</string>
+    <string name="disclaimer_title">使用即代表同意，请 24 小时内删除</string>
+    <string name="notice_detail_title">第三方组件声明</string>
+    <string name="oss_compose">Jetpack Compose / AndroidX</string>
+    <string name="oss_compose_desc">声明式界面框架与 Android 基础组件</string>
+    <string name="oss_hyperisland">HyperIsland</string>
+    <string name="oss_hyperisland_desc">关于页的布局与动效移植自该项目（MIT）</string>
+    <string name="oss_kotlin">Kotlin</string>
+    <string name="oss_kotlin_desc">开发语言与标准库</string>
+    <string name="oss_link_failed">无法打开链接</string>
+    <string name="oss_liquid_glass">AndroidLiquidGlass (backdrop)</string>
+    <string name="oss_liquid_glass_desc">液态玻璃折射与模糊效果</string>
+    <string name="oss_lsposed">LSPosed / libxposed</string>
+    <string name="oss_lsposed_desc">模块框架与现代 Xposed API</string>
+    <string name="oss_material_icons">Material Icons</string>
+    <string name="oss_material_icons_desc">界面图标的矢量路径数据（自绘，未引入图标库）</string>
+    <string name="oss_miuix">Miuix</string>
+    <string name="oss_miuix_desc">小米 HyperOS 风格 Compose UI 组件库</string>
+    <string name="section_author">关于作者</string>
+    <string name="section_disclaimer">免责声明</string>
+    <string name="section_open_source">开源鸣谢</string>
+    <string name="subtitle_about">关于</string>
+    <string name="subtitle_feature">功能菜单</string>
+    <string name="subtitle_module">环境概览</string>
+    <string name="subtitle_settings">模块设置</string>
+    <string name="tab_about">关于</string>
+    <string name="tab_feature">功能</string>
+    <string name="tab_module">概览</string>
+    <string name="tab_settings">设置</string>
+    <string name="xposed_description">LSPosed 模块 UI 模板（套用时替换成你的模块描述）</string>
+    <string-array name="language_labels">
+        <item>跟随系统</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="theme_labels">
+        <item>跟随系统</item>
+        <item>亮色</item>
+        <item>暗色</item>
+    </string-array>
+    <string-array name="log_level_labels">
+        <item>关闭</item>
+        <item>错误</item>
+        <item>信息</item>
+        <item>调试</item>
+    </string-array>
+
+    <!-- 4 模板页面：概览 / 设置 / 第三方声明 / 免责声明 -->
+    <string name="common_unknown">未知</string>
+    <string name="framework_info_unreadable">已连接（信息不可读）</string>
+    <string name="info_module_version">模块版本</string>
+    <string name="info_build_time">构建时间</string>
+    <string name="info_android_version">安卓版本</string>
+    <string name="info_device_model">设备型号</string>
+    <string name="info_miuix_version">Miuix 版本</string>
+    <string name="overview_status_active">已激活</string>
+    <string name="overview_status_inactive">未激活</string>
+    <string name="overview_status_disconnected">未连接</string>
+    <string name="overview_status_no_framework">未连接到 LSPosed 框架</string>
+    <string name="section_overview_module">模块</string>
+    <string name="section_overview_runtime">运行环境</string>
+    <string name="section_interface">界面</string>
+    <string name="section_dock">材质设置</string>
+    <string name="section_general">通用</string>
+    <string name="item_liquid_glass">液态玻璃</string>
+    <string name="liquid_glass_on">已开启，顶栏与弹层使用玻璃材质</string>
+    <string name="liquid_glass_off">已关闭，顶栏与底栏为纯色</string>
+    <string name="item_glass_effect">玻璃光效</string>
+    <string name="glass_effect_on">已开启，玻璃带动态光效</string>
+    <string name="glass_effect_off">已关闭，玻璃为静态材质</string>
+    <string name="item_theme">主题设置</string>
+    <string name="item_language">语言</string>
+    <string name="item_predictive_back">可预测返回</string>
+    <string name="item_predictive_back_summary_on">返回跟手预览（安卓 13+）</string>
+    <string name="item_predictive_back_summary_off">普通返回动画</string>
+
+    <!-- 设置页完整 UI 行文案 -->
+    <string name="section_data">数据管理</string>
+    <string name="section_log">日志</string>
+    <string name="item_desktop_icon">桌面图标</string>
+    <string name="item_desktop_icon_summary_off">已隐藏，可从 LSPosed 重新打开本页</string>
+    <string name="item_glass_effect_summary_on">完整的玻璃光效</string>
+    <string name="item_glass_effect_summary_off">简约版本</string>
+    <string name="item_backup">备份配置</string>
+    <string name="item_restore">恢复配置</string>
+    <string name="item_reset">重置模块</string>
+    <string name="item_reset_summary">关闭全部功能并恢复默认参数</string>
+    <string name="item_log_level">日志等级</string>
+    <string name="item_export_log">导出日志</string>
+    <string name="item_export_log_summary">模块与目标进程日志</string>
+    <string name="dialog_reset_title">重置模块</string>
+    <string name="dialog_reset_message">重置后模块内的全部配置将被删除！</string>
+    <string name="template_demo_hint">模板示例：%1$s（业务功能已移除）</string>
+</resources>

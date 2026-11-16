@@ -1,0 +1,15 @@
+# 本机 SDK / 构建缓存（不入库）
+local.properties
+.gradle/
+.gradle-home/
+.android-home/
+.tmp/
+build/
+app/build/
+dist/
+*.apk
+.idea/
+*.iml
+.DS_Store
+# 调试产物
+.work/

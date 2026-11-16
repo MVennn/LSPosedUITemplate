@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".app.TemplateApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:description="@string/xposed_description"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:enableOnBackInvokedCallback="true"
+        android:theme="@style/Theme.LsposedUITemplate">
+
+        <!--
+            设置页本体。**始终 enabled**，并且同时声明两个 intent-filter：
+
+              1. MAIN + MODULE_SETTINGS —— LSPosed 模块列表里「打开设置」用的入口。
+                 LSPosed 的查找顺序是先找带 de.robv.android.xposed.category.MODULE_SETTINGS
+                 的 Activity，找不到才回落到 LAUNCHER 图标。
+              2. 这里**不**加 LAUNCHER category —— 桌面图标由你的项目按需另设 alias。
+
+            必须保持 exported=true：LSPosed 是从自己的进程发起跳转的。
+            这是本模板必须保留的核心声明，删掉模块在 LSPosed 里就没有设置入口。
+        -->
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.LsposedUITemplate">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            注意：现代 API 模块不再使用 legacy meta-data。
+            LSPosed 判定逻辑是「manifest 里出现 xposedminversion 就当 legacy 模块」。
+
+            现代模块的元数据改为（见 app/src/main/resources/META-INF/xposed/）：
+              module.prop     模块属性（minApiVersion / targetApiVersion 等）
+              java_init.list  入口类（套用时换成你的 XposedModule 子类）
+              scope.list      作用域（套用时换成你的目标 App 包名）
+            模块名 / 描述取自 android:label / android:description。
+        -->
+    </application>
+
+</manifest>
